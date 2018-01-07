@@ -1,0 +1,12 @@
+(function() {var implementors = {};
+implementors["rustc_version"] = ["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"rustc_version/enum.Error.html\" title=\"enum rustc_version::Error\">Error</a>",];
+implementors["semver"] = ["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"semver/enum.Identifier.html\" title=\"enum semver::Identifier\">Identifier</a>","impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"semver/enum.SemVerError.html\" title=\"enum semver::SemVerError\">SemVerError</a>","impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"struct\" href=\"semver/struct.Version.html\" title=\"struct semver::Version\">Version</a>","impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"semver/enum.ReqParseError.html\" title=\"enum semver::ReqParseError\">ReqParseError</a>","impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"struct\" href=\"semver/struct.VersionReq.html\" title=\"struct semver::VersionReq\">VersionReq</a>",];
+implementors["semver_parser"] = ["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"struct\" href=\"semver_parser/version/struct.Version.html\" title=\"struct semver_parser::version::Version\">Version</a>","impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"semver_parser/version/enum.Identifier.html\" title=\"enum semver_parser::version::Identifier\">Identifier</a>",];
+
+            if (window.register_implementors) {
+                window.register_implementors(implementors);
+            } else {
+                window.pending_implementors = implementors;
+            }
+        
+})()
